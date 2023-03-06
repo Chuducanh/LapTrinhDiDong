@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="INPUT: "
+                android:textSize="18dp">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="input"
+                android:textColor="@color/red"
+                android:textSize="20dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="ACTION: "
+                android:textSize="18dp">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="action"
+                android:textColor="@color/red"
+                android:textSize="20dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="OUTPUT: "
+                android:textSize="18dp">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="output"
+                android:textColor="@color/red"
+                android:textSize="20dp">
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/delete_item_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:layout_gravity="center_horizontal">
+        </Button>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
